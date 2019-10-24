@@ -26,6 +26,10 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+
+    // Java SDK for B2
+    compile 'com.backblaze.b2:b2-sdk-core:3.1.0'
+    compile 'com.backblaze.b2:b2-sdk-httpclient:3.1.0'
 }
 
 application {
